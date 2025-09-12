@@ -149,6 +149,7 @@ section{
 
 .container{
     color: white;
+    
     display: flex;
     gap: 20px;
     height: 23vh;
@@ -159,6 +160,7 @@ section{
 
 .dev{
     border: 2px solid white;
+    background-color: linear-gradient(135, red blue);
     /* display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr; */
 }
@@ -169,15 +171,3 @@ section{
     font-weight: 600;
 }
 
-.div1{
-    background-color: linear-gradient(135deg, #1c1c2d, #753f3f);
-}
-.div2{
-    background: linear-gradient(135deg, #1c1c2d, #1a0b2e);
-}
-.div3{
-    background: linear-gradient(135deg, #1c1c2d, #0b1a2e);
-}
-.div4{
-    background: linear-gradient(135deg, #1c1c2d, #2e0b1a);
-}
